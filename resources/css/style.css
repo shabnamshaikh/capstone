@@ -137,6 +137,7 @@ header nav ul li{
 
 #courses {
   background-color: #DCDCDC;
+  padding-bottom: 32px;
 }
 
 #courses h1 {
@@ -175,4 +176,76 @@ header nav ul li{
 .course-info h2 {
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+#thesis {
+  background-color: #EDEDED;
+  padding-bottom: 32px;
+}
+
+#thesis h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 32px 0;
+  text-align: center;
+}
+.thesis-wrapper {
+  display: flex;
+}
+
+.thesis-info {
+  width: 50%;
+  padding-left: 24px;
+  padding-right: 16px;
+}
+
+.thesis-info video {
+  width: 100%;
+}
+
+.thesis-info h2 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.research {
+  display: flex;
+  flex-direction: column;
+}
+
+.research-item {
+  display: flex;
+  padding: 16px;
+}
+
+.research .research-item.first {
+
+  background-color: #DCDCDC;
+}
+
+.research-img {
+  width: 35%;
+  padding-right: 16px;
+}
+
+.research-img img {
+  width: 100%;
+}
+
+.research-info {
+  margin:auto 0;
+}
+
+footer {
+  background-color: #EDEDED;
+  border-top: 1px solid grey;
+  padding: 24px;
+}
+
+footer ul {
+  float: right;
+}
+
+footer ul li {
+  display: inline-block;
 }
