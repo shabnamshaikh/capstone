@@ -53,6 +53,10 @@ nav ul li a {
   color: #444444;
 }
 
+header nav.mobile {
+  display: none;
+}
+
 #banner-section {
   display: flex;
   background-color: #C4C4C4;
@@ -299,4 +303,162 @@ footer ul li {
 footer ul li a {
   text-decoration: none;
   color: #444444;
+}
+
+@media only screen and (max-width: 470px) {
+  header .logo span {
+    display: none;
+  }
+
+  header .logo img {
+    height: auto;
+  }
+
+  header nav.desktop {
+    display: none;
+  }
+  header nav.mobile {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+  }
+
+  header nav.mobile ul {
+    width: 100%;
+  }
+  
+  header nav.mobile ul li {
+    width: 27%;
+    text-align: center;
+  }
+
+  #banner-section {
+    display: block;
+  }
+
+  .banner-img {
+    padding: 0px;
+    width: 100%;
+  }
+
+  .banner-content {
+    width: 100%;
+    padding-bottom: 32px;
+  }
+
+  .banner-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    padding: 32px 16px 0px;
+  }
+
+  .banner-content h3 {
+    font-size: 1.5rem;
+    line-height: 1;
+    padding: 32px 16px 25px;
+  }
+
+  .banner-content span {
+    margin: auto 16px;
+    width: 90%;
+    padding: 0px;
+  }
+
+  .campus-info {
+    display: none;
+  }
+
+  .campus-events {
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+
+  .campus-events .event-info {
+    display: block;
+    border-bottom: 0px;
+  }
+
+  .event-image {
+    width: 100%;
+  }
+
+  .event-image img {
+    min-width: 100%;
+    height: 100%;
+  }
+
+  .event-details {
+    width: 100%;
+  }
+
+  .campus-events .event-info {
+    padding-top: 0px; 
+  }
+
+  .campus-events .event-info.last {
+    background-color: #ffffff;
+  }
+
+  #courses {
+    border-top: 1px solid #C4C4C4;
+    background-color: #ffffff;
+  }
+
+  #courses h1 {
+    padding-bottom: 16px;
+  }
+
+  .course-item {
+    width: 100%;
+    background-color: #C4C4C4;
+    height: auto;
+    margin: 8px 16px; 
+  }
+
+  .course-item.first {
+    margin-top: 16px;
+  }
+
+  .course-img {
+    display: none;
+  }
+
+  .course-info {
+    padding: 16px;
+  }
+
+  .course-info h3, .course-info span {
+    display: none;
+  }
+
+  #thesis {
+    padding-bottom: 24px;
+  }
+
+  .thesis-info {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .thesis-info video {
+    border: 1px solid #C4C4C4;
+  }
+  
+  .thesis-info h2, .thesis-info p {
+    display: none;
+  }
+
+  .research {
+    display: none;
+  }
+
+  footer {
+    padding: 16px;
+    border-top: 0px;
+  }
+
+  footer ul {
+    display: none;
+  }
 }
