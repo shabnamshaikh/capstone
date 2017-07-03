@@ -7,6 +7,7 @@
 body {
   font-family: "Open Sans";
   font-size: 18px;
+  color: #444444;
   line-height: 1.4;
 }
 header {
@@ -29,6 +30,15 @@ header .logo {
   margin-right: 10px;
 }
 
+.logo span {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.logo span.academy {
+  color: #C4C4C4;
+}
+
 header nav {
   display: flex;
   align-items: center;
@@ -38,9 +48,14 @@ header nav ul li{
   padding-right: 16px;
 }
 
+nav ul li a {
+  text-decoration: none;
+  color: #444444;
+}
+
 #banner-section {
   display: flex;
-  background-color: #DCDCDC;
+  background-color: #C4C4C4;
 }
 
 .banner-img {
@@ -72,7 +87,7 @@ header nav ul li{
 
 .banner-content span {
   display: block;
-  background-color: grey;
+  background-color: #444444;
   text-align: center;
   width: 30rem;
   font-size: 2rem;
@@ -92,6 +107,17 @@ header nav ul li{
 .campus-info {
   padding: 32px 24px 0;
   width: 70%;
+}
+
+.campus-info h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 32px 0 24px 0;
+}
+
+.campus-info span {
+  display: block;
+  padding-top: 32px;
 }
 
 .campus-info img {
@@ -116,11 +142,24 @@ header nav ul li{
 }
 
 .campus-events .event-info.last {
-  background-color: #DCDCDC;
+  background-color: #C4C4C4;
 }
 
 .campus-events .event-info .event-details {
     padding: 0px 24px;
+}
+
+.event-details h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 20px 0;
+}
+
+.event-details a {
+  display: block;
+  padding: 20px 0;
+  text-decoration: none;
+  color: #22C1F2;
 }
 
 .event-image {
@@ -136,7 +175,7 @@ header nav ul li{
 }
 
 #courses {
-  background-color: #DCDCDC;
+  background-color: #C4C4C4;
   padding-bottom: 32px;
 }
 
@@ -206,6 +245,7 @@ header nav ul li{
 .thesis-info h2 {
   padding-top: 24px;
   padding-bottom: 24px;
+  font-size: 2rem;
 }
 
 .research {
@@ -220,7 +260,7 @@ header nav ul li{
 
 .research .research-item.first {
 
-  background-color: #DCDCDC;
+  background-color: #C4C4C4;
 }
 
 .research-img {
@@ -236,6 +276,12 @@ header nav ul li{
   margin:auto 0;
 }
 
+.research-info h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
 footer {
   background-color: #EDEDED;
   border-top: 1px solid grey;
@@ -248,4 +294,9 @@ footer ul {
 
 footer ul li {
   display: inline-block;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #444444;
 }
