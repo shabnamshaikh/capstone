@@ -320,7 +320,7 @@ footer ul li a {
   header nav.mobile {
     display: flex;
     justify-content: space-between;
-    width: 75%;
+    width: 100%;
   }
 
   header nav.mobile ul {
@@ -434,6 +434,7 @@ footer ul li a {
 
   #thesis {
     padding-bottom: 24px;
+    background-color: #ffffff;
   }
 
   .thesis-info {
@@ -444,7 +445,7 @@ footer ul li a {
   .thesis-info video {
     border: 1px solid #C4C4C4;
   }
-  
+
   .thesis-info h2, .thesis-info p {
     display: none;
   }
